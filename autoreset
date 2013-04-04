@@ -32,4 +32,5 @@ def process():
       continue
 
 process()
+GPIO.cleanup()
 print "done with autoreset"
